@@ -4,7 +4,7 @@
 
 
 
-2nd step : Open myfirst.py and Change value of script 
+2nd step : Open myfirst.py and Change value of script and OFF Less secure apps in google account
 
 
 
