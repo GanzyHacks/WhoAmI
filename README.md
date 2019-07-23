@@ -1,15 +1,21 @@
 # WhoAmI
-1 st step git clone https://github.com/GanzyHacks/WhoAmI.git
-
-
-
-2 nd step cd WhoAmI
-
-
-
-3 rd step chmod +x install.sh
+1 st step :git clone https://github.com/GanzyHacks/WhoAmI.git
 
 
 
 
-4 th python3 myfirst.py
+2nd step : Open myfirst.py and Change value of script 
+
+
+
+
+3 rd step: cd WhoAmI
+
+
+
+4 th  step: chmod +x install.sh
+
+
+
+
+5 th step: python3 myfirst.py
